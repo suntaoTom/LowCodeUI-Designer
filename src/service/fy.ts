@@ -8,7 +8,7 @@ var data:any={
 }
 
 export async function fileDisplay(req:any){
-    let host=req.name+'/dist'
+    let host='/DesignerDemo/'+req.name+'/dist'
     let css:any = []
   let js:any = []
   let e:any=[]

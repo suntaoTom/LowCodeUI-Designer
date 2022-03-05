@@ -5,6 +5,7 @@ import {
   RouteRecordRaw
 } from "vue-router";
 import Design from "@/views/Design.vue";
+import View from "@/views/pc/index.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {

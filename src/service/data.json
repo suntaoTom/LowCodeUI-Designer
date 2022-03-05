@@ -1,0 +1,126 @@
+{
+  "activeElement": { "domUUID": "lz8c57", "domPosition": 4 },
+  "commonStyle": {},
+  "name": "",
+  "uuid": "1392ed",
+  "auto": "",
+  "pageW": { "top": "854px" },
+  "pageH": { "left": "1280px" },
+  "lineList": [],
+  "elements": [
+    {
+      "uuid": "lz6d53",
+      "componentName": "@lowcodeui/element-button_0.1.5",
+      "version": "npm:@lowcodeui/element-button@^0.1.5",
+      "commonStyle": {
+        "cursor": "move",
+        "width": "108px",
+        "height": "36px",
+        "left": "527px",
+        "top": "26px",
+        "outline": "1px dashed #25a589",
+        "z-index": "1",
+        "position": "absolute"
+      },
+      "propsValue": "",
+      "value": "",
+      "api": "{    defaulType:function() {this.type='primary';this.value='查询'    },    fetch:function() {      console.log(12)    }  }",
+      "css": ""
+    },
+    {
+      "uuid": "lz8c33",
+      "componentName": "@lowcodeui/element-table_0.1.0",
+      "version": "npm:@lowcodeui/element-table@^0.1.0",
+      "commonStyle": {
+        "cursor": "move",
+        "width": "698px",
+        "height": "307px",
+        "left": "46px",
+        "top": "115px",
+        "outline": "1px dashed #25a589",
+        "z-index": "1",
+        "position": "absolute"
+      },
+      "propsValue": "",
+      "value": "",
+      "api": "{    defaulType:function() {   this.tableData = [      {        date: \"2016-05-03\",        name: \"王小虎1\",        province: \"上海1\",        city: \"普陀区1\",        address: \"上海市普陀区金沙江路 1518 弄\",        zip: 20033322      },      {        date: \"2016-05-02\",        name: \"王小虎\",        province: \"上海\",        city: \"普陀区\",        address: \"上海市普陀区金沙江路 1510 弄\",        zip: 200333      }    ];    this.col=[    {      prop: \"date\",      label: \"日期2\",      width:'100'    },    {      label: \"配送信息\",      children: [        {          prop: \"name\",          label: \"姓名\"        },        {          label: \"地址\",          children: [            {              prop: \"province\",              label: \"省份\"            },            {              prop: \"city\",              label: \"市区\"            },            {              prop: \"address\",              label: \"地址\"            }          ]        }      ]    }  ]    },    fetch:function() {      console.log(12)    }  }",
+      "css": ""
+    },
+    {
+      "uuid": "lz7323",
+      "componentName": "@lowcodeui/element-input_0.1.0",
+      "version": "npm:@lowcodeui/element-input@^0.1.0",
+      "commonStyle": {
+        "cursor": "move",
+        "width": "196px",
+        "height": "41px",
+        "left": "279px",
+        "top": "24px",
+        "outline": "1px dashed #25a589",
+        "z-index": "1",
+        "position": "absolute"
+      },
+      "propsValue": "",
+      "value": "",
+      "api": "{    defaulType:function() {    },    fetch:function() {this.clearable=false      console.log(12)    }  }",
+      "css": ""
+    },
+    {
+      "uuid": "lz7517",
+      "componentName": "@lowcodeui/element-select_0.1.1",
+      "version": "npm:@lowcodeui/element-select@^0.1.1",
+      "commonStyle": {
+        "cursor": "move",
+        "width": "201px",
+        "height": "40px",
+        "left": "49px",
+        "top": "22px",
+        "outline": "1px dashed #25a589",
+        "z-index": "1",
+        "position": "absolute"
+      },
+      "propsValue": "",
+      "value": "",
+      "api": "{    defaulType:function() {             setTimeout(() => {            var lables = document.querySelectorAll('.el-select__popper')        var ele = document.createElement('div')        ele.id='lz7517';        lables.forEach(function (lable,index) {             lable.parentNode.replaceChild(ele, lable)             ele.appendChild(lable)         })    }, 0);    },setData:function(e) {      this.options=[    {      value: \"选项1\",      label: \"黄金糕\"    },    {      value: \"选项2\",      label: \"双皮奶\"    },    {      value: \"选项3\",      label: \"蚵仔煎\"    },    {      value: \"选项4\",      label: \"龙须面\"    },    {      value: \"选项5\",      label: \"北京烤鸭\"    }  ]      console.log(12,e)    },    change:function(e) {      console.log(12,e)    }  }",
+      "css": " .el-select-dropdown__item{text-align:left;}"
+    },
+    {
+      "uuid": "lz8c57",
+      "componentName": "@lowcodeui/element-echarts_0.1.5",
+      "version": "npm:@lowcodeui/element-echarts@^0.1.5",
+      "commonStyle": {
+        "cursor": "move",
+        "width": "425px",
+        "height": "314px",
+        "left": "783px",
+        "top": "38px",
+        "outline": "1px dashed #25a589",
+        "z-index": "1",
+        "position": "absolute"
+      },
+      "propsValue": "",
+      "value": "",
+      "api": "{    defaulType:function() {      this.option={    angleAxis: {    },    radiusAxis: {        type: 'category',        data: ['周一', '周二', '周三', '周四'],        z: 10    },    polar: {    },    series: [{        type: 'bar',        data: [1, 2, 3, 4],        coordinateSystem: 'polar',        name: 'A',        stack: 'a'    }, {        type: 'bar',        data: [2, 4, 6, 8],        coordinateSystem: 'polar',        name: 'B',        stack: 'a'    }, {        type: 'bar',        data: [1, 2, 3, 4],        coordinateSystem: 'polar',        name: 'C',        stack: 'a'    }],    legend: {        show: true,        data: ['A', 'B', 'C']    }};this.init()    }  }",
+      "css": ""
+    },
+    {
+      "uuid": "lz937e",
+      "componentName": "@lowcodeui/element-echarts_0.1.5",
+      "version": "npm:@lowcodeui/element-echarts@^0.1.5",
+      "commonStyle": {
+        "cursor": "move",
+        "width": "398px",
+        "height": "316px",
+        "left": "795px",
+        "top": "318px",
+        "outline": "1px dashed #25a589",
+        "z-index": "1",
+        "position": "absolute"
+      },
+      "propsValue": "",
+      "value": "",
+      "api": "{    defaulType:function() {      this.option={    xAxis: {        type: 'category',        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']    },    yAxis: {        type: 'value'    },    series: [{        data: [120, 200, 150, 80, 70, 110, 130],        type: 'bar',        showBackground: true,        backgroundStyle: {            color: 'rgba(220, 220, 220, 0.8)'        }    }]};this.init()    }  }",
+      "css": ""
+    }
+  ]
+}

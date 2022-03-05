@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": ["webpack-env"],
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "src/components/relation/index.js"
+, "src/webcompon/button/dist/js/app.c952d795.js", "src/webcompon/button/dist/js/chunk-vendors.9f4cb929.js", "src/webcompon/button/dist/js/app.c952d795.js", "src/webcompon/button/dist/js/chunk-vendors.9f4cb929.js", "src/webcompon/button/dist/js/app.c952d795.js"  ],
+  "exclude": ["node_modules"]
+}

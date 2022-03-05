@@ -1,0 +1,14 @@
+{
+    "msg": true,
+    "status": 1,
+    "content": {
+        "@lowcodeui/element-button_0.0.1": {
+            "name": "@lowcodeui/element-button",
+            "version": "0.0.1",
+            "style": {
+                "height": "40px",
+                "width": "100px"
+            }
+        }
+    }
+}
